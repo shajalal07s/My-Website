@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#navber {
+    width: 100%;
+    height: 120px;
+    background-color: #1E1E1F;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navimg {
+    background-image: url(logo.png);
+    background-size: cover;
+    background-position: center;
+    width: 95px;
+    height: 80px;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secrchber, input {
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    text-indent: 0px;
+    text-align: center;
+}
+
+.atag {
+    width: 110px;
+    height: 30px;
+    background-color: #f0eeda;
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 0.5px solid rgba(172, 199, 254, 0.771);
+    transition: 500ms;
+}
+
+.atag:hover {
+    background-color: rgba(185, 255, 232, 0.771);
+    border: 0.5px solid rgba(185, 255, 232, 0.771);
+}
+
+.navsubmenu {
+    width: 110px;
+    height: 30px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 0.5px solid rgba(172, 199, 254, 0.771);
+    transition: 500ms;
+}
+
+.navsubmenu:hover {
+    background-color: rgba(185, 255, 232, 0.771);
+    border: 0.5px solid rgba(185, 255, 232, 0.771);
+}
+
+
+ 
+/* Hero Section */
+
+
+.herosection {
+    width: 100%;
+    height: 600px;
+    background-color: #101919;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text01 {
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.herotext1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.herotext2 {
+    font-size: 8px;
+    margin-bottom: 35px;
+}
+
+.heroimg1 {
+    background-image: url(logo.png);
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+    width: 250px;
+}
+
+.text02 {
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.herotext3 {
+    font-family: serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.herotext4 {
+    font-size: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+/* About Section */
+
+
+.aboutsection {
+    width: 100%;
+    height: 600px;
+    background-color: #1E1E1F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text03 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.object {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.object1 {
+    width: 4px;
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.object2 {
+    width: 20px;
+    height: 4px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+
+.text04 {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 9px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.abgalarysec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.absecimg1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(logo.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.abtext1 {
+    width: 200px;
+    height: 100px;
+    color: #ffffff;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
+
+.absecimg2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(logo.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
