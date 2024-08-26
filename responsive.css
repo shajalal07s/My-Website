@@ -1,0 +1,28 @@
+@media only screen and (max-width:480px) {
+    #navber {
+        width: 100%;
+        height: 80px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navimg {
+        height: auto;
+        background-size: cover;
+        background-position: center;
+    }
+    .navmenu {
+
+    }
+    .secrchber, input {
+        width: auto;
+        height: auto;
+    }
+    .atag {
+        width: 50px;
+        height: auto;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+}

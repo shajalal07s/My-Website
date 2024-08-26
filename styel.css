@@ -94,13 +94,57 @@
     width: 100%;
     height: 600px;
     background-color: #101919;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
-.herovideo {
+.text01 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.herotext1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.herotext2 {
+    font-size: 8px;
+    margin-bottom: 35px;
+}
+
+.heroimg1 {
+    background-image: url(logo.png);
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+    width: 250px;
+}
+
+.text02 {
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.herotext3 {
+    font-family: serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.herotext4 {
+    font-size: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* .herovideo {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -119,7 +163,7 @@
        width: 100%; 
        height: 600px;
     }
-}
+} */
 
 
 /* About Section */
